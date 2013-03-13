@@ -18,7 +18,7 @@ echo.
 
 for /R js %%a in (*.js) do java -jar _js\build\compiler.jar --js "%%a" --js_output_file "%%a_min"
 
-for /R js %%a in (*.js) do rm "%%a"
+for /R js %%a in (*.js) do del "%%a"
 
 for /R js %%a in (*.js_min) do ren "%%a" *.js
 
