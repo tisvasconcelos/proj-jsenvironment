@@ -22,6 +22,8 @@ for /R js %%a in (*.js) do del "%%a"
 
 for /R js %%a in (*.js_min) do ren "%%a" *.js
 
+rd /s /q "js\tests"
+
 cls
 
 echo.
