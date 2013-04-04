@@ -1,4 +1,4 @@
-*[Read in Englich](https://github.com/tisvasconcelos/proj-jsenvironment/blob/master/README.md)*
+*[Read in English](https://github.com/tisvasconcelos/proj-jsenvironment/blob/master/README.md)*
 
 # proj-jsenvironment (beta)
 ==================
