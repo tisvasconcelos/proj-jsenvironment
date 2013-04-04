@@ -6,9 +6,11 @@
 ## Environment Javascript with build and tests
 
 Build usando Closure Compiler (https://developers.google.com/closure/compiler/)
+
 Obs.: Necessário Java e XCopy para usuário de windows
 
 Testes usando Jasmine (http://pivotal.github.com/jasmine/)
+
 Obs.: Necessário Ruby
 
 ### Recomendações:
