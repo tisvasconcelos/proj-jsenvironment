@@ -5,35 +5,32 @@
 
 ## Environment Javascript with build and tests
 
-Build usando Closure Compiler (https://developers.google.com/closure/compiler/)
+Build using Closure Compiler (https://developers.google.com/closure/compiler/)
 
-Obs.: Necessário Java e XCopy para usuário de windows
+Obs.: It's necessary Java and XCopy for windows users
 
-Testes usando Jasmine (http://pivotal.github.com/jasmine/)
+Tests using Jasmine (http://pivotal.github.com/jasmine/)
 
-Obs.: Necessário Ruby
+Obs.: It's necessary Ruby
 
-### Recomendações:
+### Recommendations:
 
-Para usuários de windows recomendo Link Shell Extension caso usem a parte de testes, 
-assim você pode criar o link simbolico dos seus aquivos dentro da pasta tests.
+For windows users we recommend install Link Shell Extension, if you use part of the tests, 
+so you can create a symbolic link from your js files inside the tests folder.
 
-Estamos usando jasmine mas pode ser usado qualquer framework de teste.
+We're using jasmine, but can be used any test framework
 
 ### Build
 
-Para rodar o build na linha de comando use rode o arquivo build.bat 
-(em breve criaremos um arquivo .sh), o build irá criar uma pasta js no mesmo 
-diretória da pasta _js com todos os .js minimizados e sem a pasta build e tests 
-já que não são necessárias quando for para produção.
+To run the build from the command line, run the file build.bat (soon we will create a .sh file) inside the folder build, this will createa folder call js in the same path of folder _js with all the js files minimized and without the build and tests folder, because is not necessary for production environment.
 
 ### Testes
 
-Antes de rodar os teste crie os link simbólicos das pastas core, modules e vendor dentro da pasta tests\public
+Before you run the tests create the symbolic links from the core, modules e vendor folders inside the path tests\public
 
-Caso suas pastas tenham outro nome altere o arquivo tests\spec\support\jasmine.yml
+If your folders has another name, change the config file in tests\spec\support\jasmine.yml
 
-Para rodar os testes com o jasmine va até a pasta tests e digite o seguinte comando:
+To run the tests with jasmine go to the path tests e run this command:
 ```bash
 rake jasmine
 ```
