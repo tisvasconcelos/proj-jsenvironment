@@ -13,6 +13,7 @@ xcopy _js js /E/Y/Q
 
 
 rd /s /q "js\build"
+rd /s /q "js\tests"
 
 echo.
 
@@ -21,8 +22,6 @@ for /R js %%a in (*.js) do java -jar _js\build\compiler.jar --js "%%a" --js_outp
 for /R js %%a in (*.js) do del "%%a"
 
 for /R js %%a in (*.js_min) do ren "%%a" *.js
-
-rd /s /q "js\tests"
 
 cls
 
