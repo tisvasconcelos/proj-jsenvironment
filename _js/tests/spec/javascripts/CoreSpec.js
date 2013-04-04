@@ -8,7 +8,7 @@ describe("Core", function(){
 	});
 
 	it("should be able to get typeof core", function(){
-		expect(true).toBe(true);
+		expect(typeof core).toBe("object");
 	});
 
 });

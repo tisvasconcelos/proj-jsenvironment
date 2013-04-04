@@ -8,8 +8,8 @@ describe("Contact", function(){
 		contact = new Contact();
 	});
 
-	it("should be able to get typeof core", function(){
-		
+	it("should be able to get typeof contact", function(){
+		expect(typeof contact).toBe("object");
 	});
 
 });
