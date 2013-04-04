@@ -1,3 +1,5 @@
+First, sorry for my english
+
 *[Leia em Português](https://github.com/tisvasconcelos/proj-jsenvironment/blob/master/README-pt.md)*
 
 # proj-jsenvironment (beta)
