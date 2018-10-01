@@ -9,7 +9,7 @@ Build usando Closure Compiler (https://developers.google.com/closure/compiler/)
 
 Obs.: Necessário Java e XCopy para usuário de windows
 
-Testes usando Jasmine (http://pivotal.github.com/jasmine/)
+Testes usando Jasmine (https://jasmine.github.io/)
 
 Obs.: Necessário Ruby
 
