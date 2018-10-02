@@ -1,6 +1,6 @@
 First, sorry for my english
 
-*[Leia em Português](https://github.com/tisvasconcelos/proj-jsenvironment/blob/master/README-pt.md)*
+*[Leia em PortuguÃªs](https://github.com/tisvasconcelos/proj-jsenvironment/blob/master/README-pt.md)*
 
 # proj-jsenvironment (beta)
 ==================
@@ -11,7 +11,7 @@ Build using Closure Compiler (https://developers.google.com/closure/compiler/)
 
 Obs.: It's necessary Java and XCopy for windows users
 
-Tests using Jasmine (http://pivotal.github.com/jasmine/)
+Tests using Jasmine (https://jasmine.github.io/)
 
 Obs.: It's necessary Ruby
 
